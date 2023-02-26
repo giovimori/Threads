@@ -1,4 +1,5 @@
 Giovanni Morelli 4H - WPFThreads
+
 Le Lambda Expression sono una funzionalità introdotta in C# 3.0 che consente di scrivere funzioni anonime in modo più conciso e leggibile. In pratica, le Lambda Expression sono un modo per definire una funzione in-linea, ovvero senza la necessità di creare una classe separata per la funzione.
 
 In C#, le Lambda Expression possono essere utilizzate in diverse situazioni, ad esempio:
