@@ -16,6 +16,7 @@ Il costrutto C# lock è utilizzato per creare sezioni di codice critico che poss
 Il costrutto lock in C# richiede un oggetto di blocco, ovvero un oggetto che viene utilizzato per sincronizzare l'accesso a una risorsa condivisa. Il blocco viene creato utilizzando la parola chiave lock seguita dall'oggetto di blocco.
 Ad esempio, il seguente codice utilizza il costrutto lock per sincronizzare l'accesso a una variabile condivisa:
 
+
 class Program
 {
     static int counter = 0;
@@ -39,5 +40,6 @@ class Program
         Console.ReadLine();
     }
 }
+
 
 In questo esempio, viene creato un oggetto di blocco "counterLock" e utilizzato all'interno di un blocco "lock" per sincronizzare l'accesso alla variabile "counter". Il codice crea 100 thread che incrementano la variabile "counter" in modo asincrono, ma grazie al costrutto lock, l'accesso alla variabile è sincronizzato in modo che solo un thread alla volta possa accedervi. Alla fine del processo, viene stampato il valore di "counter".
